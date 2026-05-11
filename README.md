@@ -135,10 +135,10 @@ A one-time deploy fee (10 SUI default) is charged per vault creation. No recurri
 - The `AdminCap` controls only fee updates and treasury withdrawals — it has **zero power over any vault**
 - No upgradeability on vault logic — what you deploy is what you get
 - Extensively stress-tested on testnet across all schedule types (cliff, linear, hybrid), multi-beneficiary configurations, and edge cases including boundary timestamps and maximum beneficiary counts:
-  - **264 vaults** created (single + multi-beneficiary)
-  - **415 wallets** with active vesting positions
-  - **249 claim transactions** executed on-chain
-  - **14 unique creators** (distinct deployers)
+  - **295 vaults** created (single + multi-beneficiary)
+  - **453 wallets** with active vesting positions
+  - **185 claim transactions** executed on-chain
+  
 
 ---
 
@@ -147,7 +147,7 @@ A one-time deploy fee (10 SUI default) is charged per vault creation. No recurri
 - [Sui Move](https://docs.sui.io/build/move) — smart contract language
 - [Sui TypeScript SDK](https://sdk.mystenlabs.com/typescript) — frontend and CLI integration
 - [Supabase Edge Functions](https://supabase.com/docs/guides/functions) — AI Agent backend (Deno runtime)
-- [Anthropic Claude](https://anthropic.com) — AI Agent LLM
+- [Anthropic Claude](https://anthropic.com) — AI Agent LLM (API Haiku - Epoch Agent AI)
 
 ---
 
